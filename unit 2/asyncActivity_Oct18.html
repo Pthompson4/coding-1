@@ -1,46 +1,39 @@
 <html>
+
 <head>
-<style>
-.item1 { grid-area: main content ; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+  <html>
 
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
+  <head>
+    <style>
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 165px 0;
-  font-size: 30px;
-}
-</style>
-</head>
+      .divRules {
+        background-color: blueviolet;
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+      }
+      .container{
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+    </style>
+  </head>
+
 <body>
 
-<h1></h1>
-
-<p></p>
-
-<div class="grid-container">
-  <div class="item1">Header</div>
-  <div class="item2">Menu</div>
-  <div class="item3">Main</div>  
-  <div class="item4">Right</div>
-  <div class="item5">Footer</div>
-</div>
+  <div class="divRules" style="width:1900px">Nav</div>
+  <div class="container">
+    <div class="divRules"style="width:1500px; height: 300px;"> Main Content</div>
+    <div class="divRules"style="width:350px; height: 300px;"> Advertisement</div>
+    <div class="divRules"style="width:400px; height: 300px;"> Option 1</div>
+    <div class="divRules"style="width:370px; height: 300px;  "> Option 2 </div>
+    <div class="divRules"style="width:370px; height: 300px;">Option 3</div>
+    <div class="divRules"style="width:370px;">7</div>
+  </div>
 
 </body>
+
 </html>
+</body>
 
-
+</html>
