@@ -5,31 +5,45 @@
 
   <head>
     <style>
-
       .divRules {
         background-color: blueviolet;
         height: 50px;
         width: 50px;
         margin: 10px;
       }
-      .container{
+
+      .container {
         display: grid;
         grid-template-columns: auto auto;
+      }
+
+      .bottomContainer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
       }
     </style>
   </head>
 
 <body>
 
+
+
   <div class="divRules" style="width:1900px">Nav</div>
   <div class="container">
-    <div class="divRules"style="width:1500px; height: 300px;"> Main Content</div>
-    <div class="divRules"style="width:350px; height: 300px;"> Advertisement</div>
-    <div class="divRules"style="width:400px; height: 300px;"> Option 1</div>
-    <div class="divRules"style="width:370px; height: 300px;  "> Option 2 </div>
-    <div class="divRules"style="width:370px; height: 300px;">Option 3</div>
-    <div class="divRules"style="width:370px;">7</div>
+    <div class="divRules" style="width:1500px; height: 300px;"> Main Content</div>
+    <div class="divRules" style="width:350px; height: 300px;"> Advertisement</div>
   </div>
+  <div class="bottomContainer">
+    <div class="divRules" style="width:370px; height: 300px;"> Option 1</div>
+    <div class="divRules" style="width:370px; height: 300px;"> Option 2 </div>
+    <div class="divRules" style="width:370px; height: 300px;"> Option 3</div>
+  </div>
+  <div>
+    <div class="divRules" style="width:1900px;"> Footer </div>
+  </div>
+
+
 
 </body>
 
