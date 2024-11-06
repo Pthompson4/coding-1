@@ -1,6 +1,12 @@
-// var declares a variable, let declares re-assignable local variables, and const specifies that a variables value is constant. 
-let a = 2000
-let b = 1000
-let c = 1000
-// you could use the let variable and const variable 
+// 1.
+ "var is the standard variable. short for variable. this can be used in any context" 
+ "let is a variable where the data may change"  
+ "const is  a variable where the data needs to remain constant."
+
+ // 2.   
+var a = 2
+var b = 2
+var c = 1000
+console.log(a* b* c)
+// 2. you could use the let  by leaving emails in the draft that youre still working on. you could use const by sending an emaill. you could use var
 // 
