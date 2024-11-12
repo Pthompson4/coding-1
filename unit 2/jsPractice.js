@@ -19,3 +19,7 @@ console.log('my name is Pierre');
 1023
 32009472095702970
 console.log(3*12)
+
+var example: "this is a string" // anything wrapped in quotes.
+var example: true // boolean = true of false
+var example: 128932 // integers = numbers

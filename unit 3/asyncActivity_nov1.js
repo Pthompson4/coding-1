@@ -1,7 +1,7 @@
 // 1.
  "var is the standard variable. short for variable. this can be used in any context" 
  "let is a variable where the data may change"  
- "const is  a variable where the data needs to remain constant."
+ "const is  a variable where the data needs to remain constant"
 
  // 2.   
 var a = 2
