@@ -1,6 +1,6 @@
 //1. what is string concatenation 
 'string concatenation is the process of combining 2 strings together using the + (addition) operator.'
-var firstWord='good afternoon'
+var firstWord='good afternoon'  
 var secondWord='coding class'
 console.log(firstWord + secondWord)
 

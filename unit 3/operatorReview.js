@@ -21,7 +21,7 @@ var userAccount = "";
 //Assigment- giving variables values.
 //we use the single equal sign (=) to assign data to variables
 
-//snaekers is the variable.  we are assuming the value of 200.00 with the equal sign.
+//sneakers is the variable.  we are assuming the value of 200.00 with the equal sign.
 var sneakers = 200.00
 sneakers *= .30
 console.log (sneakers)
