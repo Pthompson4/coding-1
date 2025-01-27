@@ -2,6 +2,17 @@
 
 //Create a function that uses a while loop to print/ console.log the list but in reverse order.
 
+
+function reverseNumbers(){
+    var i = 7
+    while (i > 0){
+        console.log(numberlist)
+        i -=1
+    }
+}
+reverseNumbers()
+
+
 function reverse [1,23,56,3,56,3,20,200] {
     var reverse = 200, 20, 3, 56, 3, 23,1
     while (var reverse 1,23,56,3,56,3,20,200){
