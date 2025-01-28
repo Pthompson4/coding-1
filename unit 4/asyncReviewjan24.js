@@ -1,4 +1,4 @@
-
+//1.
 function reverseNumbers(){
     var i = 7
     while (i > 0){
@@ -7,3 +7,11 @@ function reverseNumbers(){
     }
 }
 reverseNumbers()
+
+
+//2.
+while(input >= 0){
+    console.log('countdown')
+    input -=1
+  } 
+        

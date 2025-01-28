@@ -1,18 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Loops</title>
-  </head>
-  <body>
-    <input type="timer" id="userInput" />
-    <button onclick="runLoop(timer)">Submit</button>
-<script>
-      function runLoop(4) {
-        var timer = document.getElementById("4,3, 2,1 , 0").value;
-        console.log(timer)
 
-        // your loop function should go here.
+<head>
+  <title>Loops</title>
+</head>
+
+<body>
+  <input type="timer" id="userInput" />
+  <button onclick="runLoop(timer)">Submit</button>
+  <script>
+    function runLoop(4) {
+      var timer = document.getElementById("4, 3, 2, 1, 0").value;
+      console.log(Timer)
+
+
+
+
+
+    }
+  </script>
+</body>
+
+</html>
+
+------------------------------------------------------------------------------------------------------------
+REVIEW
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Loops</title>
+</head>
+
+<body>
+  <input type="timer" id="userInput" />
+  <button onclick="runLoop(timer)">Submit</button>
+  <script>
+    function runLoop() {
+      var input = document.getElementById("userInput").value;
+      console.log(input)
+
+
+      while (input >= 0) {
+        console.log('countdown')
+        input -= 1
       }
-</script>
-  </body>
+
+
+
+    }
+  </script>
+</body>
+
 </html>
